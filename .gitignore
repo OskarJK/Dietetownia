@@ -1,0 +1,37 @@
+# ==========================================
+# Główne pliki konfiguracyjne (SEKRETY)
+# ==========================================
+.env
+*.env
+
+# ==========================================
+# Środowisko wirtualne Pythona
+# ==========================================
+venv/
+ENV/
+env/
+.venv/
+
+# ==========================================
+# Lokalna baza danych Django
+# ==========================================
+*.sqlite3
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Systemowe i Edytory (Windows / VS Code)
+# ==========================================
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ==========================================
+# Cache Pythona
+# ==========================================
+__pycache__/
+*.py[cod]
