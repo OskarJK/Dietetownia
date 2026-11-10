@@ -18,12 +18,18 @@ class DietitianProfile(models.Model):
     bio = models.TextField(help_text='Główny opis widoczny w sekcji "O mnie" *')
     years_of_experience = models.PositiveIntegerField(default=0)
     photo = models.ImageField(upload_to='profile/', blank=True, null=True, help_text='Zdjęcie główne na stronie')
+    about_photo = models.ImageField(
+        upload_to='profile/',
+        blank=True,
+        null=True,
+        help_text='Zdjęcie w sekcji "O mnie" (najlepiej pionowe, proporcje 3:4)',
+    )
 
     # Dane kontaktowe wyświetlane na stronie (statyczne, nie formularz)
-    address = models.CharField(max_length=255, blank=True)
-    phone = models.CharField(max_length=30, blank=True)
-    email = models.EmailField(blank=True)
-    working_hours = models.CharField(max_length=255, blank=True)
+    address = models.CharField(max_length=255, blank=True, help_text='Zostaw puste, jeśli nie ma być widoczne na stronie')
+    phone = models.CharField(max_length=30, blank=True, help_text='Zostaw puste, jeśli nie ma być widoczne na stronie')
+    email = models.EmailField(blank=True, help_text='Zostaw puste, jeśli nie ma być widoczne na stronie')
+    working_hours = models.CharField(max_length=255, blank=True, help_text='Zostaw puste, jeśli nie ma być widoczne na stronie')
 
     class Meta:
         verbose_name = 'Profil dietetyczki'

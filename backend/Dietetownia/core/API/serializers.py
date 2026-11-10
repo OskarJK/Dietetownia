@@ -6,7 +6,7 @@ class DietitianProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = DietitianProfile
         fields = [
-            'name', 'tagline', 'bio', 'years_of_experience', 'photo',
+            'name', 'tagline', 'bio', 'years_of_experience', 'photo', 'about_photo',
             'address', 'phone', 'email', 'working_hours',
         ]
 
