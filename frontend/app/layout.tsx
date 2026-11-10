@@ -23,7 +23,7 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "NutriAvocado — Marta Kowalska, dietetyczka kliniczna",
+  title: "Dietetownia — Sandra Dąbrowska, dietetyczka kliniczna",
   description: "Certyfikowana dietetyczka kliniczna. Indywidualne plany żywienia, konsultacje i przepisy.",
 };
 

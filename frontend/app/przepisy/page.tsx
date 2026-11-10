@@ -5,7 +5,7 @@ import PageHeader from "@/components/PageHeader";
 import { GreenBlob, AvocadoIllustration } from "@/components/Decorations";
 
 export const metadata = {
-  title: "Przepisy — NutriAvocado",
+  title: "Przepisy — Dietetownia",
   description: "Proste, smaczne i odżywcze przepisy na każdy tydzień.",
 };
 

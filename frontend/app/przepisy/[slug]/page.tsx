@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const recipe = await getRecipe(slug);
   if (!recipe) return { title: "Nie znaleziono przepisu" };
-  return { title: `${recipe.title} — NutriAvocado`, description: recipe.description };
+  return { title: `${recipe.title} — Dietetownia`, description: recipe.description };
 }
 
 export default async function RecipePage({ params }: Props) {

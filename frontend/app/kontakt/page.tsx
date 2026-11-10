@@ -3,7 +3,7 @@ import PageHeader from "@/components/PageHeader";
 import { GreenBlob, AvocadoIllustration } from "@/components/Decorations";
 
 export const metadata = {
-  title: "Kontakt — NutriAvocado",
+  title: "Kontakt — Dietetownia",
   description: "Skontaktuj się z dietetyczką i umów konsultację.",
 };
 
